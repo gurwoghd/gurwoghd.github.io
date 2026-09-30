@@ -20,3 +20,10 @@ I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
 {% include social-links.html %}
 </div>
 </div>
+
+## Experience
+
+**Backend Developer, GSA Info Team** · Apr 2024 – Dec 2024
+
+Built **GISTalk**, a service where GIST students can rate courses they have taken and write reviews.
+*Tech: PostgreSQL, TypeScript, NestJS*
