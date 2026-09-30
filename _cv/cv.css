@@ -1,0 +1,10 @@
+@page { size: A4; margin: 16mm 18mm; }
+body { font-family: "Malgun Gothic", "Segoe UI", Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #111; }
+h1 { font-size: 22pt; margin: 0 0 2pt; }
+h1 + p { margin: 0 0 6pt; color: #333; }
+h2 { font-size: 12pt; border-bottom: 1.5px solid #333; padding-bottom: 2pt; margin: 14pt 0 6pt; text-transform: uppercase; letter-spacing: .04em; }
+p { margin: 3pt 0; }
+ul { margin: 2pt 0 4pt; padding-left: 16pt; }
+li { margin: 1pt 0; }
+a { color: #111; text-decoration: none; }
+.date { float: right; color: #444; font-weight: normal; }

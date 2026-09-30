@@ -5,13 +5,23 @@ A Jekyll-based static site. GitHub Pages builds it automatically — just add ma
 ## Structure
 
 - `index.md` — home page (bio, profile photo, experience)
-- `_includes/social-links.html` — icon-button links (email, CV, LinkedIn, GitHub), sourced from `social:` in `_config.yml` (the CV link points to a Google Doc, so edits to the doc show up immediately)
+- `_includes/social-links.html` — icon-button links (email, CV, LinkedIn, GitHub), sourced from `social:` in `_config.yml`
 - `_posts/` — notes (`YYYY-MM-DD-title.md`, listed at `/notes/`)
 - `_research/` — research projects / papers (listed at `/research/`)
 - `_layouts/`, `_includes/` — page templates
 - `assets/css/style.css` — styling
+- `_cv/cv.md` — CV source (edit this); `_cv/cv.css` — PDF styling; `_cv/build.sh` — builds `assets/cv.pdf`
+- `assets/cv.pdf` — generated CV, downloaded by the CV icon on the home page
 - `assets/profile.webp` — profile photo on the home page
 - `assets/images/research/` — images used by research cards
+
+## Updating the CV
+
+Edit `_cv/cv.md`, then rebuild the PDF (needs pandoc and Edge/Chrome) and commit both:
+
+```bash
+bash _cv/build.sh
+```
 
 ## Adding a note
 
