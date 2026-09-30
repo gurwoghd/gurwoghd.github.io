@@ -151,8 +151,10 @@ a { color: var(--accent); }
 
 .social-links {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   margin-top: 14px;
 }
 
@@ -160,9 +162,9 @@ a { color: var(--accent); }
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 26px;
-  height: 26px;
-  border-radius: 999px;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
   color: var(--text-muted);
   transition: color 0.15s ease, background 0.15s ease;
 }
@@ -173,8 +175,8 @@ a { color: var(--accent); }
 }
 
 .social-links svg {
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
 }
 
 .recent-header {
