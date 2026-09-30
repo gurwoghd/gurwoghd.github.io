@@ -135,25 +135,44 @@ a { color: var(--accent); }
 .intro { margin-bottom: 56px; }
 .intro ul { padding-left: 1.2em; color: var(--text-muted); }
 
-.social-links {
+.home-hero {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.home-hero-text { flex: 1; min-width: 0; }
+
+.home-hero-photo {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  margin-top: 14px;
+  gap: 12px;
+}
+
+.home-hero-photo img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(2, 50px);
+  gap: 8px 16px;
+  justify-content: center;
 }
 
 .social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-width: 50px;
+  width: 50px;
   height: 50px;
   border-radius: 8px;
-  font-size: 15px;
-  font-weight: 500;
   color: var(--text-muted);
   transition: color 0.15s ease, background 0.15s ease;
 }
@@ -166,7 +185,10 @@ a { color: var(--accent); }
 .social-links svg {
   width: 50px;
   height: 50px;
-  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .home-hero { flex-direction: column-reverse; align-items: center; }
 }
 
 .recent-header {
