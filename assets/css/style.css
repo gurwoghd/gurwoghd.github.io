@@ -149,6 +149,37 @@ a { color: var(--accent); }
 .intro { margin-bottom: 56px; }
 .intro ul { padding-left: 1.2em; color: var(--text-muted); }
 
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  box-shadow: var(--shadow);
+  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.social-links a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.social-links svg {
+  width: 19px;
+  height: 19px;
+}
+
 .recent-header {
   display: flex;
   align-items: baseline;

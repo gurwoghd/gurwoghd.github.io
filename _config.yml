@@ -5,6 +5,12 @@ author: "Hyeokjae Hong"
 baseurl: ""
 url: "https://gurwoghd.github.io"
 
+social:
+  email: "hong_hyeokjae@gm.gist.ac.kr"
+  cv: "/assets/cv.pdf"
+  linkedin: "https://www.linkedin.com/in/hyeokjae-hong-2121b8320/"
+  github: "https://github.com/gurwoghd"
+
 markdown: kramdown
 kramdown:
   input: GFM
