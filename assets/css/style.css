@@ -151,33 +151,30 @@ a { color: var(--accent); }
 
 .social-links {
   display: flex;
-  gap: 10px;
-  margin-top: 20px;
+  align-items: center;
+  gap: 6px;
+  margin-top: 14px;
 }
 
 .social-links a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 26px;
+  height: 26px;
   border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--bg-elevated);
   color: var(--text-muted);
-  box-shadow: var(--shadow);
-  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+  transition: color 0.15s ease, background 0.15s ease;
 }
 
 .social-links a:hover {
   color: var(--accent);
-  border-color: var(--accent);
-  transform: translateY(-1px);
+  background: var(--accent-soft);
 }
 
 .social-links svg {
-  width: 19px;
-  height: 19px;
+  width: 14px;
+  height: 14px;
 }
 
 .recent-header {
