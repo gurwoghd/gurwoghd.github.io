@@ -4,13 +4,13 @@ A Jekyll-based static site. GitHub Pages builds it automatically — just add ma
 
 ## Structure
 
-- `index.md` — home page (bio / contact)
-- `_includes/social-links.html` — icon-button links (email, CV, LinkedIn, GitHub), sourced from `social:` in `_config.yml`
+- `index.md` — home page (bio, profile photo, experience)
+- `_includes/social-links.html` — icon-button links (email, CV, LinkedIn, GitHub), sourced from `social:` in `_config.yml` (the CV link points to a Google Doc, so edits to the doc show up immediately)
 - `_posts/` — notes (`YYYY-MM-DD-title.md`, listed at `/notes/`)
 - `_research/` — research projects / papers (listed at `/research/`)
 - `_layouts/`, `_includes/` — page templates
 - `assets/css/style.css` — styling
-- `assets/cv.pdf` — CV file linked from the home page (add your own)
+- `assets/profile.webp` — profile photo on the home page
 - `assets/images/research/` — images used by research cards
 
 ## Adding a note
@@ -63,5 +63,4 @@ Already configured for `gurwoghd/gurwoghd.github.io`, serving from the `main` br
 
 ## Still to fill in
 
-- `assets/cv.pdf` — add your actual CV file
 - `_research/example-research.md` — replace with a real entry (and add its image), or delete it
