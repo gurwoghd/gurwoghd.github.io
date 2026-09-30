@@ -1,12 +1,14 @@
 ---
 layout: home
-title: 홈
+title: Home
 ---
 
-# 안녕하세요, OOO입니다.
+# Hello! I'm Hyeokjae Hong.
 
-이곳은 저의 연구와 학습 과정을 기록하는 공간입니다. 이 문단을 본인 소개로 바꿔주세요 — 전공/관심 분야, 소속, 현재 진행 중인 연구 방향 등을 적으면 좋습니다.
+I'm interested in **self-improving AI**.
 
-- 관심 연구 분야: (예: ...)
-- 소속: (예: ...)
-- 연락처: (예: email@example.com)
+- **Affiliation:** GIST EECS, B.S.
+- **Contact:** [hong_hyeokjae@gm.gist.ac.kr](mailto:hong_hyeokjae@gm.gist.ac.kr)
+- **CV:** [Download](/assets/cv.pdf)
+- **LinkedIn:** [linkedin.com/in/your-handle](#)
+- **GitHub:** [github.com/gurwoghd](https://github.com/gurwoghd)

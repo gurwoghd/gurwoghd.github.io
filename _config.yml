@@ -1,6 +1,6 @@
-title: "연구 노트"
-description: "연구와 학습을 기록하는 공간"
-author: ""
+title: "Hyeokjae Hong"
+description: "Notes and research on self-improving AI"
+author: "Hyeokjae Hong"
 
 baseurl: ""
 url: "https://gurwoghd.github.io"
@@ -14,9 +14,9 @@ kramdown:
 permalink: /notes/:year/:month/:day/:title/
 
 collections:
-  projects:
+  research:
     output: true
-    permalink: /projects/:name/
+    permalink: /research/:name/
 
 defaults:
   - scope:
@@ -27,9 +27,9 @@ defaults:
       math: true
   - scope:
       path: ""
-      type: projects
+      type: research
     values:
-      layout: project
+      layout: research
 
 plugins:
   - jekyll-feed

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
 {% include head.html %}
 </head>
@@ -12,19 +12,19 @@
 
   <section class="recent">
     <div class="recent-header">
-      <h2>최근 연구노트</h2>
-      <a class="see-all" href="{{ '/notes/' | relative_url }}">전체 보기 →</a>
+      <h2>Recent Notes</h2>
+      <a class="see-all" href="{{ '/notes/' | relative_url }}">See all →</a>
     </div>
     <ul class="post-list">
       {% for post in site.posts limit:5 %}
       <li class="post-list-item">
         <a href="{{ post.url | relative_url }}">
           <span class="post-list-title">{{ post.title }}</span>
-          <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+          <span class="post-list-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         </a>
       </li>
       {% else %}
-      <li class="post-list-empty">아직 작성된 글이 없습니다. <code>_posts/</code> 폴더에 첫 글을 추가해보세요.</li>
+      <li class="post-list-empty">No notes yet. Add your first one to <code>_posts/</code>.</li>
       {% endfor %}
     </ul>
   </section>

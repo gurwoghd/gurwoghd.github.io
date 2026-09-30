@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main class="wrap page">
+  <article class="post">
+    <header class="post-header">
+      <a class="back-link" href="{{ '/research/' | relative_url }}">← Research</a>
+      {% if page.image %}
+      <img class="research-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">
+        {% if page.venue %}<span>{{ page.venue }}</span>{% endif %}
+        {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %Y" }}</time>{% endif %}
+        {% if page.status %}<span class="tag status-{{ page.status | slugify }}">{{ page.status }}</span>{% endif %}
+        {% if page.tags and page.tags.size > 0 %}
+        <span class="post-tags">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+      </div>
+      {% if page.paper_url %}
+      <a class="paper-link" href="{{ page.paper_url }}" target="_blank" rel="noopener">View Paper →</a>
+      {% endif %}
+    </header>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+</main>
+{% include footer.html %}
+</body>
+</html>
