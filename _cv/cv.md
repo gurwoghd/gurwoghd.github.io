@@ -1,6 +1,6 @@
 # Hyeokjae Hong
 
-hong_hyeokjae@gm.gist.ac.kr · [GitHub](https://github.com/gurwoghd) · [LinkedIn](https://www.linkedin.com/in/hyeokjae-hong-2121b8320/)
+[hong_hyeokjae@gm.gist.ac.kr](mailto:hong_hyeokjae@gm.gist.ac.kr) · [GitHub](https://github.com/gurwoghd) · [LinkedIn](https://www.linkedin.com/in/hyeokjae-hong-2121b8320/)
 
 ## Interest
 
@@ -24,7 +24,7 @@ I'm interested in self-improving AI, meta-learning, and AutoML.
 
 - SQLD
 - ADsP
-- Korean History Test (Grade 1)
+- Korean History Test, Grade 1 (한국사능력검정시험 1급)
 - Industrial Engineer Information Processing (정보처리산업기사)
 
 ## Related Courses
@@ -37,9 +37,9 @@ I'm interested in self-improving AI, meta-learning, and AutoML.
 
 **Einstein Class** <span class="date">Jan 2024 – Feb 2024</span>
 
-**WFK IT Volunteer Program (Laos)**, on-site, on-site <span class="date">Jul 18 – Aug 17, 2023</span>
+**WFK IT Volunteer Program (Laos)**, on-site <span class="date">Jul 18 – Aug 17, 2023</span>
 
-**WFK IT Volunteer Program (Jordan)**, online, online <span class="date">Jul 18 – Aug 17, 2023</span>
+**WFK IT Volunteer Program (Jordan)**, online <span class="date">Jul 18 – Aug 17, 2023</span>
 
 ## Qualifications
 
