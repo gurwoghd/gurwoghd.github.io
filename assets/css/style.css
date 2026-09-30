@@ -1,5 +1,5 @@
 :root {
-  --bg: #F7F4EC;
+  --bg: #FFFFFF;
   --bg-elevated: #FFFFFF;
   --text: #2B2925;
   --text-muted: #6B675F;
@@ -14,20 +14,6 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --max-width: 760px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #1B1A17;
-    --bg-elevated: #242320;
-    --text: #EDEAE3;
-    --text-muted: #A39E92;
-    --accent: #E08A65;
-    --accent-soft: #3A2C24;
-    --border: #3A3733;
-    --code-bg: #2A2823;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  }
 }
 
 :root[data-theme="dark"] {
@@ -152,7 +138,7 @@ a { color: var(--accent); }
 .social-links {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   gap: 8px;
   margin-top: 14px;
@@ -162,9 +148,12 @@ a { color: var(--accent); }
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
+  gap: 8px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
   color: var(--text-muted);
   transition: color 0.15s ease, background 0.15s ease;
 }
@@ -175,8 +164,9 @@ a { color: var(--accent); }
 }
 
 .social-links svg {
-  width: 15px;
-  height: 15px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
 }
 
 .recent-header {
