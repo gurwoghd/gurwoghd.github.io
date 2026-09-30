@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main class="wrap page">
+  <article class="post">
+    <header class="post-header">
+      <a class="back-link" href="{{ '/projects/' | relative_url }}">← 프로젝트</a>
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">
+        {% if page.status %}<span class="tag status-{{ page.status }}">{{ page.status }}</span>{% endif %}
+        {% if page.tags and page.tags.size > 0 %}
+        <span class="post-tags">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+      </div>
+    </header>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+</main>
+{% include footer.html %}
+</body>
+</html>

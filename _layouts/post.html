@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main class="wrap page">
+  <article class="post">
+    <header class="post-header">
+      <a class="back-link" href="{{ '/notes/' | relative_url }}">← 연구노트</a>
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y년 %m월 %d일" }}</time>
+        {% if page.tags and page.tags.size > 0 %}
+        <span class="post-tags">
+          {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+        </span>
+        {% endif %}
+      </div>
+    </header>
+    <div class="post-content">
+      {{ content }}
+    </div>
+  </article>
+</main>
+{% include footer.html %}
+</body>
+</html>

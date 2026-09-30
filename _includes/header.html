@@ -1,0 +1,10 @@
+<header class="site-header">
+  <div class="wrap site-header-inner">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>홈</a>
+      <a href="{{ '/notes/' | relative_url }}"{% if page.url contains '/notes' %} class="active"{% endif %}>연구노트</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' %} class="active"{% endif %}>프로젝트</a>
+    </nav>
+  </div>
+</header>

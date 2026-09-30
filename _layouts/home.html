@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+{% include head.html %}
+</head>
+<body>
+{% include header.html %}
+<main class="wrap page home">
+  <section class="intro">
+    {{ content }}
+  </section>
+
+  <section class="recent">
+    <div class="recent-header">
+      <h2>최근 연구노트</h2>
+      <a class="see-all" href="{{ '/notes/' | relative_url }}">전체 보기 →</a>
+    </div>
+    <ul class="post-list">
+      {% for post in site.posts limit:5 %}
+      <li class="post-list-item">
+        <a href="{{ post.url | relative_url }}">
+          <span class="post-list-title">{{ post.title }}</span>
+          <span class="post-list-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+        </a>
+      </li>
+      {% else %}
+      <li class="post-list-empty">아직 작성된 글이 없습니다. <code>_posts/</code> 폴더에 첫 글을 추가해보세요.</li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
+{% include footer.html %}
+</body>
+</html>
