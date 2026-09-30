@@ -25,5 +25,5 @@ I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
 
 **Backend Developer, GSA Info Team** · Apr 2024 – Dec 2024
 
-Built **GISTalk**, a service where GIST students can rate courses they have taken and write reviews.
+Built **[GISTalk](https://github.com/gsainfoteam/gistalk-be)**, a service where GIST students can rate courses they have taken and write reviews.
 *Tech: PostgreSQL, TypeScript, NestJS*
