@@ -25,12 +25,12 @@ I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
 
 Preparing to return to GIST by building a stronger mathematical and algorithmic foundation:
 
-- Multivariable Calculus
-- Linear Algebra
-- Differential Equations
+- Multivariable Calculus (review)
+- Linear Algebra (review)
+- Differential Equations (review)
 - Convex Optimization
 - Discrete Mathematics
-- Algorithms
+- Algorithms (review)
 
 ## Experience
 
