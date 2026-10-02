@@ -21,6 +21,17 @@ I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
 </div>
 </div>
 
+## Currently Studying
+
+Preparing to return to GIST by building a stronger mathematical and algorithmic foundation:
+
+- Multivariable Calculus
+- Linear Algebra
+- Differential Equations
+- Convex Optimization
+- Discrete Mathematics
+- Algorithms
+
 ## Experience
 
 **Backend Developer, GSA Info Team** · Apr 2024 – Dec 2024
