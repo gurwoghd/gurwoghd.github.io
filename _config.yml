@@ -23,6 +23,9 @@ collections:
   research:
     output: true
     permalink: /research/:name/
+  activities:
+    output: true
+    permalink: /activity/:name/
 
 defaults:
   - scope:
@@ -36,6 +39,11 @@ defaults:
       type: research
     values:
       layout: research
+  - scope:
+      path: ""
+      type: activities
+    values:
+      layout: activity
 
 plugins:
   - jekyll-feed

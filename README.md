@@ -8,6 +8,7 @@ A Jekyll-based static site. GitHub Pages builds it automatically — just add ma
 - `_includes/social-links.html` — icon-button links (email, CV, LinkedIn, GitHub), sourced from `social:` in `_config.yml`
 - `_posts/` — notes (`YYYY-MM-DD-title.md`, listed at `/notes/`)
 - `_research/` — research projects / papers (listed at `/research/`)
+- `_activities/` — volunteering / activity posts (listed at `/activity/`)
 - `_layouts/`, `_includes/` — page templates
 - `assets/css/style.css` — styling
 - `_cv/cv.md` — CV source (edit this); `_cv/cv.css` — PDF styling; `_cv/build.sh` — builds `assets/cv.pdf`
@@ -71,6 +72,19 @@ Then open `http://localhost:4000`. If setting up Ruby locally is a hassle, just 
 
 Already configured for `gurwoghd/gurwoghd.github.io`, serving from the `main` branch root. On every push to `main`, GitHub rebuilds and redeploys automatically at `https://gurwoghd.github.io`.
 
-## Still to fill in
+## Adding an activity
 
-- `_research/example-research.md` — replace with a real entry (and add its image), or delete it
+Create a file in `_activities/`:
+
+```markdown
+---
+title: "Activity title"
+period: "Jan 2024 – Feb 2024"
+location: "Where"        # optional
+date: 2024-01-01          # used for sorting (newest first)
+summary: "One-line summary shown in the list."
+tags: [volunteer]
+---
+
+Post body.
+```
