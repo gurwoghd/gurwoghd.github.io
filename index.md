@@ -8,7 +8,7 @@ title: Home
 
 # Hello! I'm Hyeokjae Hong.
 
-B.S. student in Electrical Engineering and Computer Science (EECS) at GIST
+B.S. in EECS @ GIST
 
 I'm working toward **open-ended, self-improving generalist agents**.
 
