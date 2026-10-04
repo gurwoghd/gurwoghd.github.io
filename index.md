@@ -10,8 +10,6 @@ title: Home
 
 I'm working toward **open-ended, self-improving generalist agents**.
 
-**Affiliation:** GIST EECS, B.S.
-
 **Email:** [{{ site.social.email }}](mailto:{{ site.social.email }})
 
 </div>
@@ -30,6 +28,12 @@ AI that learns to solve unfamiliar problems across many domains, finds more effi
 - Generalist agents
 - Meta-learning and AutoML
 - Open-endedness
+
+## Education
+
+**Gwangju Institute of Science and Technology (GIST)** · Feb 2023 – present
+
+B.S. in Electrical Engineering and Computer Science (EECS), minor in Mathematics
 
 ## Currently Studying
 
