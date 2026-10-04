@@ -8,6 +8,8 @@ title: Home
 
 # Hello! I'm Hyeokjae Hong.
 
+B.S. student in Electrical Engineering and Computer Science (EECS) at GIST
+
 I'm working toward **open-ended, self-improving generalist agents**.
 
 **Email:** [{{ site.social.email }}](mailto:{{ site.social.email }})
