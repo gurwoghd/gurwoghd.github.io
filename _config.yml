@@ -10,6 +10,7 @@ social:
   cv: "/assets/cv.pdf"
   linkedin: "https://www.linkedin.com/in/hyeokjae-hong-2121b8320/"
   github: "https://github.com/gurwoghd"
+  solvedac: "https://solved.ac/profile/gurwoghd"
 
 markdown: kramdown
 kramdown:

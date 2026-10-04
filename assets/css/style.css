@@ -160,10 +160,11 @@ a { color: var(--accent); }
 }
 
 .social-links {
-  display: grid;
-  grid-template-columns: repeat(2, 50px);
-  gap: 8px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
   justify-content: center;
+  max-width: 200px;
 }
 
 .social-links a {
