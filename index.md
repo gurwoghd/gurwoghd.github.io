@@ -8,7 +8,7 @@ title: Home
 
 # Hello! I'm Hyeokjae Hong.
 
-I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
+I'm working toward **open-ended, self-improving generalist agents**.
 
 **Affiliation:** GIST EECS, B.S.
 
@@ -20,6 +20,16 @@ I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
 {% include social-links.html %}
 </div>
 </div>
+
+## What I Want to Build
+
+AI that learns to solve unfamiliar problems across many domains, finds more efficient ways to solve them, and eventually generates and tackles related problems on its own.
+
+## Research Interests
+
+- Generalist agents
+- Meta-learning and AutoML
+- Open-endedness
 
 ## Currently Studying
 
