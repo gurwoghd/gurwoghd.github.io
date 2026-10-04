@@ -23,14 +23,12 @@ I'm interested in **self-improving AI**, **meta-learning**, and **AutoML**.
 
 ## Currently Studying
 
-Preparing to return to GIST by building a stronger mathematical and algorithmic foundation:
+Preparing to return to GIST by building a stronger mathematical foundation:
 
-- Multivariable Calculus (review)
-- Linear Algebra (review)
-- Differential Equations (review)
-- Convex Optimization
+- Optimization
 - Discrete Mathematics
-- Algorithms (review)
+- Probability
+- Statistics
 
 ## Experience
 

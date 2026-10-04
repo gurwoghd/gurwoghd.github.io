@@ -54,3 +54,4 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor
+  - _templates

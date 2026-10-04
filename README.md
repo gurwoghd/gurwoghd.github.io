@@ -9,6 +9,7 @@ A Jekyll-based static site. GitHub Pages builds it automatically — just add ma
 - `_posts/` — notes (`YYYY-MM-DD-title.md`, listed at `/notes/`)
 - `_research/` — research projects / papers (listed at `/research/`)
 - `_activities/` — volunteering / activity posts (listed at `/activity/`)
+- `_templates/` — writing templates (not published); `activity-template.md` is the outline for activity posts
 - `_layouts/`, `_includes/` — page templates
 - `assets/css/style.css` — styling
 - `_cv/cv.md` — CV source (edit this); `_cv/cv.css` — PDF styling; `_cv/build.sh` — builds `assets/cv.pdf`
@@ -74,7 +75,7 @@ Already configured for `gurwoghd/gurwoghd.github.io`, serving from the `main` br
 
 ## Adding an activity
 
-Create a file in `_activities/`:
+Copy `_templates/activity-template.md` to `_activities/<name>.md` and fill it in (the template has writing prompts for each section). Minimal front matter:
 
 ```markdown
 ---
