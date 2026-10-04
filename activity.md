@@ -18,6 +18,6 @@ permalink: /activity/
     {% if item.summary %}<p class="post-list-excerpt">{{ item.summary }}</p>{% endif %}
   </li>
   {% else %}
-  <li class="post-list-empty">No activities yet. Add a file to <code>_activities/</code>.</li>
+  <li class="post-list-empty">No activities yet.</li>
   {% endfor %}
 </ul>

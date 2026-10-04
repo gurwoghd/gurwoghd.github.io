@@ -25,6 +25,6 @@ permalink: /research/
     </div>
   </li>
   {% else %}
-  <li class="post-list-empty">No research listed yet. Add an entry to <code>_research/</code>.</li>
+  <li class="post-list-empty">No research listed yet.</li>
   {% endfor %}
 </ul>

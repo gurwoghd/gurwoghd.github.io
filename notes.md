@@ -17,6 +17,6 @@ permalink: /notes/
     {% if post.excerpt %}<p class="post-list-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>{% endif %}
   </li>
   {% else %}
-  <li class="post-list-empty">No notes yet. Add a file like <code>YYYY-MM-DD-title.md</code> to <code>_posts/</code>.</li>
+  <li class="post-list-empty">No notes yet.</li>
   {% endfor %}
 </ul>
