@@ -477,6 +477,5 @@ a { color: var(--accent); }
   h1 { font-size: 1.7rem; }
   .site-nav { gap: 14px; }
   .post-list-item a { flex-direction: column; gap: 2px; }
-  .post-list-item.has-thumb { flex-direction: column; align-items: stretch; gap: 12px; }
-  .post-list-thumb { width: 100%; height: 180px; }
+  .post-list-thumb-link { display: none; }
 }
