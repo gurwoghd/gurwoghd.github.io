@@ -272,7 +272,7 @@ a { color: var(--accent); }
 .post-list-item.has-thumb .post-list-main a { padding: 0 0 6px; }
 .post-list-item.has-thumb .post-list-excerpt { margin: 0; }
 
-.post-list-thumb-link { flex: none; display: block; }
+.post-list-item .post-list-thumb-link { flex: none; display: block; padding: 0; }
 
 .post-list-thumb {
   display: block;
@@ -477,5 +477,5 @@ a { color: var(--accent); }
   h1 { font-size: 1.7rem; }
   .site-nav { gap: 14px; }
   .post-list-item a { flex-direction: column; gap: 2px; }
-  .post-list-thumb-link { display: none; }
+  .post-list-item .post-list-thumb-link { display: none; }
 }
