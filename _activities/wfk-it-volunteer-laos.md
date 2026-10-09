@@ -5,7 +5,10 @@ location: "Laos (on-site)"
 date: 2023-07-18
 summary: "On-site IT volunteering in Laos: taught Python and introductory machine learning, and shared Korean culture."
 tags: [volunteer, IT, teaching]
+image: /assets/images/activity/wfk-it-volunteer-laos/group-photo.jpg
 ---
+
+![The 2023 World Friends Korea IT Volunteers team holding a banner]({{ '/assets/images/activity/wfk-it-volunteer-laos/group-photo.jpg' | relative_url }})
 
 ## Overview
 
