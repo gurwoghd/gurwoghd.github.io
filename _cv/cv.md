@@ -1,10 +1,10 @@
 # Hyeokjae Hong
 
-[hong_hyeokjae@gm.gist.ac.kr](mailto:hong_hyeokjae@gm.gist.ac.kr) · [GitHub](https://github.com/gurwoghd) · [LinkedIn](https://www.linkedin.com/in/hyeokjae-hong-2121b8320/)
+[hong_hyeokjae@gm.gist.ac.kr](mailto:hong_hyeokjae@gm.gist.ac.kr) · [GitHub](https://github.com/gurwoghd) · [LinkedIn](https://www.linkedin.com/in/hyeokjae-hong-2121b8320/) · [Codeforces](https://codeforces.com/profile/gilchi) · [Kaggle](https://www.kaggle.com/gilchi)
 
 ## Research Interests
 
-I'm working toward open-ended, self-improving generalist agents: AI that learns to solve unfamiliar problems across many domains, finds more efficient ways to solve them, and eventually generates and tackles related problems on its own. My interests include generalist agents, meta-learning and AutoML, and open-endedness.
+I'm working toward open-ended, self-improving generalist agents: AI that learns to solve unfamiliar problems across many domains, finds more efficient ways to solve them, and eventually generates and tackles related problems on its own. My interests include generalist agents, meta-learning and AutoML, open-endedness, and reinforcement learning.
 
 ## Education
 

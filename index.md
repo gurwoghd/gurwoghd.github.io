@@ -30,6 +30,7 @@ AI that learns to solve unfamiliar problems across many domains, finds more effi
 - Generalist agents
 - Meta-learning and AutoML
 - Open-endedness
+- Reinforcement learning
 
 ## Education
 
