@@ -7,6 +7,8 @@
   --accent-soft: #F0DDD2;
   --border: #8F8A7E;
   --code-bg: #EFEAE0;
+  --song-bg: #E3F2FC;
+  --song-border: #B9DCF3;
   --shadow: 0 1px 2px rgba(43, 41, 37, 0.06);
 
   --font-serif: "Source Serif 4", Georgia, serif;
@@ -25,6 +27,8 @@
   --accent-soft: #3A2C24;
   --border: #3A3733;
   --code-bg: #2A2823;
+  --song-bg: #1D2E3C;
+  --song-border: #2F4A5F;
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -353,6 +357,16 @@ a { color: var(--accent); }
 }
 
 .post-content.keep-line-breaks p { white-space: pre-line; }
+
+.post-content .song {
+  margin: 1.8em 0;
+  padding: 0.6em 1.2em;
+  background: var(--song-bg);
+  border: 1px solid var(--song-border);
+  border-radius: 10px;
+  text-align: center;
+}
+.post-content .song h3 { margin-top: 0.8em; }
 
 .post-content blockquote {
   margin: 1.4em 0;
