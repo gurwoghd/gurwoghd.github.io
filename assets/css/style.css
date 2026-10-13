@@ -317,6 +317,20 @@ a { color: var(--accent); }
   font-weight: 500;
 }
 
+.tag-filter { display: flex; gap: 8px; flex-wrap: wrap; margin: 0 0 8px; }
+
+.tag-filter .tag {
+  border: 0;
+  font-family: inherit;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+.tag-filter .tag:hover { filter: brightness(0.96); }
+.tag-filter .tag.is-active { background: var(--accent); color: var(--bg); }
+.tag-filter .tag:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.post-list-item[hidden] { display: none; }
+
 .post-content code {
   font-family: var(--font-mono);
   background: var(--code-bg);
