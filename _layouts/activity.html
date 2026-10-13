@@ -20,7 +20,7 @@
         {% endif %}
       </div>
     </header>
-    <div class="post-content">
+    <div class="post-content{% if page.line_breaks %} keep-line-breaks{% endif %}">
       {{ content }}
     </div>
   </article>

@@ -338,6 +338,8 @@ a { color: var(--accent); }
   padding: 0;
 }
 
+.post-content.keep-line-breaks p { white-space: pre-line; }
+
 .post-content blockquote {
   margin: 1.4em 0;
   padding-left: 1em;

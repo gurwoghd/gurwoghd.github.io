@@ -5,7 +5,7 @@ permalink: /activity/
 ---
 
 <h1>Activity</h1>
-<p class="page-desc">Volunteering and community programs I have taken part in.</p>
+<p class="page-desc">Volunteering, community programs, and creative projects I have taken part in.</p>
 
 <ul class="post-list post-list-full">
   {% assign items = site.activities | sort: "date" | reverse %}
