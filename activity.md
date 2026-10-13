@@ -47,19 +47,30 @@ permalink: /activity/
   if (!filter) return;
   var buttons = filter.querySelectorAll('button');
   var items = document.querySelectorAll('#activity-list .post-list-item');
+  var selected = [];
 
   filter.addEventListener('click', function (e) {
     var btn = e.target.closest('button');
     if (!btn) return;
     var tag = btn.getAttribute('data-tag');
+    if (tag === '') {
+      selected = [];
+    } else if (selected.indexOf(tag) === -1) {
+      selected.push(tag);
+    } else {
+      selected.splice(selected.indexOf(tag), 1);
+    }
     buttons.forEach(function (b) {
-      var on = b === btn;
+      var t = b.getAttribute('data-tag');
+      var on = t === '' ? selected.length === 0 : selected.indexOf(t) !== -1;
       b.classList.toggle('is-active', on);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
     });
     items.forEach(function (li) {
       var tags = (li.getAttribute('data-tags') || '').split('|');
-      li.hidden = tag !== '' && tags.indexOf(tag) === -1;
+      li.hidden = selected.length > 0 && !selected.some(function (t) {
+        return tags.indexOf(t) !== -1;
+      });
     });
   });
 })();
