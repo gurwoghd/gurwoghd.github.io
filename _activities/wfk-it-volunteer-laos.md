@@ -26,7 +26,7 @@ The learners were a mix of university students and working adults, including som
 
 - Python syntax, taught through hands-on coding rather than slides alone.
 - Data handling and plotting with NumPy, pandas, and Matplotlib.
-- Machine learning basics: linear regression and logistic regression, implemented and run in Python with scikit-learn.
+- Machine learning basics: linear regression, logistic regression, support vector machines (SVM), and the perceptron, implemented and run in Python with scikit-learn.
 
 **Korean culture sessions**
 
