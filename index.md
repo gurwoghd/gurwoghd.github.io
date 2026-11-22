@@ -10,7 +10,7 @@ title: Home
 
 B.S. in EECS @ GIST
 
-I'm working toward **open-ended, self-improving generalist agents**.
+I'm interested in **AI that learns to solve unfamiliar problems on its own**.
 
 **Email:** [{{ site.social.email }}](mailto:{{ site.social.email }})
 
@@ -23,14 +23,15 @@ I'm working toward **open-ended, self-improving generalist agents**.
 
 ## What I Want to Build
 
-AI that learns to solve unfamiliar problems across many domains, finds more efficient ways to solve them, and eventually generates and tackles related problems on its own.
+In the long run, I'd like to help build AI that learns to solve unfamiliar problems across many domains, finds more efficient ways to solve them, and eventually generates and tackles related problems on its own.
 
 ## Research Interests
 
-- Generalist agents
-- Meta-learning and AutoML
-- Open-endedness
+I'm at the start of my research path. These are the directions I'm most drawn to and plan to study in depth:
+
 - Reinforcement learning
+- Generalist agents
+- Meta-learning and open-endedness
 
 ## Education
 
@@ -40,12 +41,11 @@ B.S. in Electrical Engineering and Computer Science (EECS), minor in Mathematics
 
 ## Currently Studying
 
-Preparing to return to GIST by building a stronger mathematical foundation:
+Preparing to return to GIST by building a stronger foundation for machine learning:
 
-- Optimization
-- Discrete Mathematics
-- Probability
-- Statistics
+- Linear Algebra
+- Statistical Learning
+- PyTorch
 
 ## Experience
 

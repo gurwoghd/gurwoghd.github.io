@@ -4,7 +4,7 @@
 
 ## Research Interests
 
-I'm working toward open-ended, self-improving generalist agents: AI that learns to solve unfamiliar problems across many domains, finds more efficient ways to solve them, and eventually generates and tackles related problems on its own. My interests include generalist agents, meta-learning and AutoML, open-endedness, and reinforcement learning.
+I'm at the start of my research path and most drawn to AI that learns to solve unfamiliar problems across many domains and gets better at solving them over time. Directions I want to study in depth include reinforcement learning, generalist agents, meta-learning, and open-endedness. I'm currently building the foundation for this, studying linear algebra and statistical learning and learning PyTorch.
 
 ## Education
 
