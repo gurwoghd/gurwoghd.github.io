@@ -10,8 +10,9 @@ social:
   cv: "/assets/cv.pdf"
   linkedin: "https://www.linkedin.com/in/hyeokjae-hong-2121b8320/"
   github: "https://github.com/gurwoghd"
-  codeforces: "https://codeforces.com/profile/gilchi"
-  kaggle: "https://www.kaggle.com/gilchi"
+  # Hidden until there is activity to show; uncomment to bring the icons back.
+  # codeforces: "https://codeforces.com/profile/gilchi"
+  # kaggle: "https://www.kaggle.com/gilchi"
 
 markdown: kramdown
 kramdown:
