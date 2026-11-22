@@ -38,6 +38,8 @@ The learners were a mix of university students and working adults, including som
 
 **Tools:** Python, NumPy, pandas, Matplotlib, scikit-learn
 
+**Teaching materials:** lecture notes and source code are on [GitHub](https://github.com/gurwoghd/2023_WFK_ICT-Laos-).
+
 ## Challenges
 
 **Teaching hands-on machine learning clearly.** Building a model with scikit-learn is easy to do and hard to explain. Working out how to present the coding steps so beginners could follow took a lot of preparation time.

@@ -40,7 +40,7 @@ I'm at the start of my research path and most drawn to AI that learns to solve u
 
 **WFK IT Volunteer Program (Laos)**, on-site <span class="date">Jul 18 – Aug 17, 2023</span>
 
-- One of two ICT members in a four-person team. Designed and taught lessons on Python, data handling (NumPy, pandas, Matplotlib), and linear and logistic regression with scikit-learn to university students and working adults.
+- One of two ICT members in a four-person team. Designed and taught lessons on Python, data handling (NumPy, pandas, Matplotlib), and linear and logistic regression with scikit-learn to university students and working adults ([materials](https://github.com/gurwoghd/2023_WFK_ICT-Laos-)).
 
 **WFK IT Volunteer Program (Jordan)**, online <span class="date">Jul 18 – Aug 17, 2023</span>
 
