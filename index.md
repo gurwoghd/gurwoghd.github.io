@@ -43,7 +43,7 @@ B.S. in Electrical Engineering and Computer Science (EECS), minor in Mathematics
 
 Preparing to return to GIST by building a stronger foundation for machine learning:
 
-- Linear Algebra
+- Linear Algebra (reviewing)
 - Statistical Learning
 - PyTorch
 
