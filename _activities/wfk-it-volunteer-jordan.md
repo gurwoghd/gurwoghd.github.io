@@ -23,7 +23,7 @@ I was in a team of three. We took turns teaching, one person per lesson.
 
 - Python basics.
 - Data handling and plotting with NumPy, pandas, and Matplotlib.
-- Machine learning basics with scikit-learn: linear regression, logistic regression, support vector machines (SVM), and the perceptron.
+- Machine learning basics with scikit-learn: linear regression, support vector machines (SVM), and the perceptron.
 - The course also covered image segmentation and fine-tuning. A teammate who knew these topics well taught them, and I assisted.
 
 **Tools:** Python, NumPy, pandas, Matplotlib, scikit-learn, Google Classroom, Google Meet

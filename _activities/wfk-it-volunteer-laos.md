@@ -26,7 +26,7 @@ The learners were a mix of university students and working adults, including som
 
 - Python syntax, taught through hands-on coding rather than slides alone.
 - Data handling and plotting with NumPy, pandas, and Matplotlib.
-- Machine learning basics: linear regression, logistic regression, support vector machines (SVM), and the perceptron, implemented and run in Python with scikit-learn.
+- Machine learning basics: linear regression, support vector machines (SVM), and the perceptron, implemented and run in Python with scikit-learn.
 
 **Korean culture sessions**
 
@@ -50,5 +50,5 @@ The learners were a mix of university students and working adults, including som
 
 ## What I Learned
 
-- **Teaching required understanding the math.** We did not need to teach the mathematics behind linear and logistic regression, but we studied it so that we could explain the models properly. That made it clear to me how much machine learning depends on linear algebra, multivariable calculus, and probability and statistics.
+- **Teaching required understanding the math.** We did not need to teach the mathematics behind these models, but we studied it so that we could explain the models properly. That made it clear to me how much machine learning depends on linear algebra, multivariable calculus, and probability and statistics.
 - **Knowledge alone is not enough.** Activities like this, and research as well, depend on English and communication skills as much as on technical knowledge. This is something I want to keep improving.
